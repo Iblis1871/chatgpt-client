@@ -18,6 +18,7 @@
 .chatbox {
   flex: 1;
   background-color: #343541;
+  position: relative;
 }
 
 .side-menu-button {
@@ -44,6 +45,31 @@
 
   }
 
+  .chat-input-holder {
+
+    padding: 24px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+
+
+  }
+
+  .chat-input-textarea {
+
+    background-color: #40414f;
+    width: 100%;
+    border-radius: 5px; 
+    border: none;
+    outline: none;
+    box-shadow: 0 0 8px  0 rgba(0, 0, 0, 0.25);
+    padding: 12px;
+    color: white;
+    font-size: 1.25em;
+
+  }
 
 .App-logo {
   height: 40vmin;

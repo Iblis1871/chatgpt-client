@@ -1,6 +1,7 @@
 import "./App.css";
 import "./normal.css";
 import { useState } from "react";
+import MatrixBackground from "./Components/MatrixAnimation";
 
 function App() {
   const [input, setInput] = useState("");
@@ -51,6 +52,7 @@ function App() {
         </div>
       </aside>
       <section className="chatbox">
+        <MatrixBackground />
         <div className="chat-log">
           {chatLog.map((message, index) => (
             <ChatMessage key={index} message={message} />
